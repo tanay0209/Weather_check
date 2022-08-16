@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 60px;
+    color: rgb(210, 210, 99);
+}
+#time{
+    float: right;
+    margin-right: 60px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.search{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+
+}
+#searchCity{
+    border: 5px solid rgb(229, 225, 13);
+    outline: none;
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgb(239, 229, 36) ;
+}
+button{
+    width: 100px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid white;
+    font-size: 18px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgb(27, 27, 26) ;
+}
+.box{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  max-width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+.box p{
+    font-weight: 900;
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+}

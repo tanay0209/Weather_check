@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js "></script>
+    <title>Weather API</title>
+</head>
+
+<body>
+    <h1>Weather</h1>
+    <div id="time"></div>
+
+    <div class="search">
+        <input id="searchCity" placeholder="City name" type="text"><button type="submit" onclick="searchCity()" id="searchButton">Submit</button>
+    </div>
+    <div class="box">
+        <p >City Name : <div id="City">--</div></p>
+        <p >Latitude : <div id="latitude">--</div></p>
+        <p>Longitude : <div id="longitude">--</div></p>
+        <p>Temperature : <div id="temperature">--</div></p>
+        <p>Weather : <div id="weather">--</div></p>
+    </div>
+</body>
+
+
+</html>
